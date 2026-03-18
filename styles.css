@@ -1,4 +1,23 @@
 body {
-    color: white;
     background-color: black;
+}
+
+#main {
+    color: white;
+    font-family: "Robot Mono", monospace;
+    margin: 10px;
+    padding: 10px;
+    background-color: #111;
+    height: 95vh;
+    width: 95vw;
+    display: block;
+    border-radius: 5px;
+}
+
+.prompt {
+    color: limegreen;
+}
+
+.error {
+    color: red;
 }
