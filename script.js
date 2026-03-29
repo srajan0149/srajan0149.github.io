@@ -2,6 +2,11 @@ import exec from "./programs/exec.js";
 
 let main = document.body.querySelector("#main");
 console.log(main);
+main.innerHTML = `
+  Hi there, I am Srajan Dehariya, the author of this website.
+  Want to get more about me? Check out get_full_info command.
+  Use 'help' command, to check out other comands
+  `;
 
 let input = "";
 function getc(e) {
