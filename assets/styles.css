@@ -1,7 +1,8 @@
 body {
     background-color: black;
-    font-family: "Robot Mono", monospace;
-    font-size: 0.9em;
+    font-family: "Roboto Mono", monospace;
+    font-size: 0.75em;
+    font-weight: 350;
 }
 
 #main {
