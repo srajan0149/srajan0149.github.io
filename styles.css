@@ -1,23 +1,38 @@
 body {
     background-color: black;
+    font-family: "Robot Mono", monospace;
+    font-size: 0.9em;
 }
 
 #main {
+    color: #fcfcfc;
+    background-color: #232627;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: calc(100vh - 5.4em);
+    overflow-wrap: anywhere;
+    overflow-y: scroll;
+}
+
+#header,
+#footer {
+    color: black;
+    background-color: white;
+    margin: 0;
+    padding-left: 6px;
+}
+
+#prompt {
     color: white;
-    font-family: "Robot Mono", monospace;
-    margin: 10px;
-    padding: 10px;
-    background-color: #111;
-    height: 95vh;
-    width: 95vw;
-    display: block;
-    border-radius: 5px;
+    background-color: black;
+    overflow-x: hidden;
 }
 
-.prompt {
-    color: limegreen;
-}
-
-.error {
-    color: red;
+.text {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    overflow-wrap: anywhere;
+    word-break: break-all;
 }
